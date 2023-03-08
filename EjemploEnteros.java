@@ -18,6 +18,13 @@ public class EjemploEnteros {
 		
 		System.out.println("Mi edad es " + edad); // Concatenamos un String con la variable edad usando +
 
+		int edad1 = 27; 
+		System.out.print(edad1);
+
+		edad1 = 27 + 27;
+		System.out.print("La suma de la edad mi novio y mia es: " + edad1);
+    	System.out.println("La edad es "+ edad1 + ", Felicitaciones!");
+
 	}
 
 }

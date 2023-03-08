@@ -12,6 +12,7 @@ public class EjemploConversiones {
 		
 		int resultado = (int) variable1 + variable1Entero; // Forzamos el resultado en int
 		System.out.println(resultado);
+		
 	}
 
 }

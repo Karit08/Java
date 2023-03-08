@@ -14,7 +14,7 @@ public class EjemploCondicionales2 {
 		if (puedeEntrar) {
 			System.out.println("Sea bienvenido");
 		} else {
-			System.out.println("Usted no esta permitido a " + "entrar");
+			System.out.println("Usted no esta permitido a entrar");
 		}
 
 	}

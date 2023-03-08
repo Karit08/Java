@@ -4,6 +4,7 @@ public class EjemploDecimales {
 	public static void main(String[] args) {
 		// int salario = 1250.88 No compila porque un valor decimal no cabe en una variable tipo int
 		double salario = 1250.88;
+		System.out.println("Mi salario es: "+ salario);
 		System.out.println(salario);
 		
 		double edad = 28; // Numeros enteros si pueden ser asignados a variables tipo double
@@ -12,6 +13,14 @@ public class EjemploDecimales {
 		
 		int division = 1250 / 3; // Compila, a pesar de resultar en un valor decimal
 		System.out.println(division); // Ignora por completo la parte decimal, NO redondea, solo toma la parte entera
-	}
-	
+
+		// DECIMAL-------------------------
+    	double variable1 = 230.89;
+		
+		int division1 = 5/2;
+    	System.out.println (division1);
+
+    	double divisio = 5.0 / 2;
+    	System.out.println (divisio);	
+	}	
 }
