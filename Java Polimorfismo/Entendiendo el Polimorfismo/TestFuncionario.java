@@ -1,5 +1,6 @@
 package bytebank;
 
+//Se realizan pruebas de la clase Funcionario
 public class TestFuncionario {
 
 	public static void main(String[] args) {
