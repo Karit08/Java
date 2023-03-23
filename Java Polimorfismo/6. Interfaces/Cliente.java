@@ -1,6 +1,7 @@
 package bytebank;
 
-public class Cliente implements Autenticable {
+public class Cliente implements Autenticable { 
+    // Ciente ya no tiene nada que ver con FUNCIONARIO
 
     private String nombre;
     private String documento;

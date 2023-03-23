@@ -1,7 +1,7 @@
 package bytebank;
 
 public class Administrador extends Funcionario implements Autenticable {
-
+// EL administrador es un Funcionario y esta identificado/rotulado con la Autenticación
 	private String clave;
 
 	public Administrador() {
